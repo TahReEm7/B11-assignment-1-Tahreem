@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: instrument sans , sans-serif;
+    
 }
 /* Nav */
 nav{
@@ -182,4 +183,82 @@ img {
     border: none;
     border-radius:8px ;
     background-color : #FFC239
+}
+ 
+/* Challenge */
+.challenge {
+    margin: 32px 160px 0px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position-x: 24px;
+    background-position-y: 24px;
+}
+.challenge-container {
+    background-color: rgba(220, 215, 215, 0.362);
+    padding: 48px 24px;
+    border-radius: 16px;
+}
+.challenge-quote {
+    color : rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
+    padding: 0px 0px 12px;
+}
+.chellenge-speaker {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: semi-bold;
+    padding-bottom: 4px ;
+}
+.chellenge-end {
+    color : rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 24px;
+}
+
+/* Recent News */
+.recent-news {
+    margin: 80px 160px 0px;
+}
+.news-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.news-subtitle {
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: regular;
+    margin-bottom: 32px;
+    padding: 0 12px 0;
+}
+.card1 {
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(220, 215, 215, 0.362);
+    border-radius: 24px;
+    padding: 48px;
+}
+.card-content > img {
+    height: 40px;
+    width: 134px;
+    padding: 12px 0 12px;
+}
+.card1 >img {
+    height: 306px;
+    width: 408px;
+    border-radius: 24px;
+}
+.card-cont {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 0px;
 }
