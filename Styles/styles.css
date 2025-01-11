@@ -183,6 +183,10 @@ img {
     border-radius:8px ;
     background-color : #FFC239
 }
+.card-hov:hover {
+    background-color: #8c8c941c;
+    color: #FFFFFF;
+}
  
 /* Challenge */
 .challenge {
@@ -403,24 +407,45 @@ img {
 }
 
 /* footer */
-.footer-container {
+.container {
     display: flex;
     flex-direction: column;
-    padding: 50px 160px;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
+    margin: 20px; 
+    background-color:rgba(220, 215, 215, 0.362);
 }
-.icon-container {
+
+.title {
+    font-size: 24px; /
+    margin-bottom: 10px; 
+}
+
+.icons {
     display: flex;
-    flex-direction: row;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0px;
+    gap: 15px;
 }
-.icon-container > img {
-    height: 24px;
+
+.icons a {
+    text-decoration: none;
+    color: inherit; 
+    font-size: 20px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+}
+.icons > a > img {
+    height:24px;
     width: 24px;
+    padding: 0px 0px 0px 0px;
+}
+hr {
+    width: 1122px;
+    border: 1px solid #1d1e1e36;
+}
+.title {
+    font-weight: bold;
+    font-size: 32px; 
+    margin-bottom: 32px ;
+    margin-top: 50px;
 }
