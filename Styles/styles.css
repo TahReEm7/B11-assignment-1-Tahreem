@@ -145,17 +145,20 @@ img {
 .card-first {
     background-color:rgba(84, 144, 245, 0.2);
     border-radius: 16px;
-    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
 }
 .card-middle {
     background-color:rgba(9, 161, 92, 0.2);
     border-radius: 16px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .card-last {
     background-color:rgba(255, 194, 57, 0.2);
     border-radius: 16px ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .btn-container {
+
     padding: 0 32px 32px 32px;  
 }
 .card-btn1 {
@@ -166,6 +169,7 @@ img {
     border: none;
     border-radius:8px ;
     background-color:#5490F5;
+    
 }
 .card-btn2 {
     padding: 11px 20px;
@@ -198,6 +202,7 @@ img {
     background-color: rgba(220, 215, 215, 0.362);
     padding: 48px 24px;
     border-radius: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .challenge-quote {
     color : rgba(14, 14, 14, 0.8);
@@ -245,6 +250,7 @@ img {
     background-color: rgba(220, 215, 215, 0.362);
     border-radius: 24px;
     padding: 48px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .card-content > img {
     height: 40px;
@@ -261,4 +267,72 @@ img {
     flex-direction: column;
     gap: 24px;
     padding: 24px 0px;
+}
+
+/* donate section */
+.donate-title {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+.donate-subtitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 16px;
+    font-weight: regular;
+    padding: 32px 88px 24px;
+}
+.donate-main {
+    margin: 80px 160px 0px;
+}
+.taka-card {
+    background-color: rgba(220, 215, 215, 0.362);
+    padding: 40px;   
+    border-radius: 16px;
+    font-weight: bold;
+    font-weight: 40px;
+    color: rgba(14, 14, 14, 0.8);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-section {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.card-active {
+    background-color: #09a15d47;
+}
+.donate-input {
+    padding: 20px 422.5px;
+    font-size: 20px;
+    font-weight: regular;
+    color: rgba(14, 14, 14, 0.3);
+    border: none;
+    margin: 32px 19.5px;
+    background-color:rgba(220, 215, 215, 0.362);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.btn-donate {
+    text-align: center;
+    justify-content: center;
+}
+
+/* Sub New */
+.sub-news {
+    margin: 80px 160px 0px;
+    background-color: #C6E4D6;
+}
+.sub-new-container{
+    padding: 80px 265px;
 }
