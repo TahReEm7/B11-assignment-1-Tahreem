@@ -13,6 +13,7 @@ nav{
     justify-content: space-between;
     flex-direction: row;
     padding: 24px 160px;
+    margin-bottom: 20px;
 }
 nav > h3{
     color: #0E0E0E;
@@ -43,11 +44,8 @@ button {
 .hero-section-content {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     justify-content: center;
     padding-top: 80px;
-    padding-left: 60px;
-    padding-bottom: 80px;
 }
 .hero-section-title{
     color: #0E0E0E;
@@ -58,7 +56,7 @@ button {
 }
 .hero-section-heading{
     color: #0E0E0E;
-    font-size: 56px;
+    font-size: 50px;
     font-weight: bold;
     padding-top: 16px;
     padding-bottom: 24px;
@@ -75,18 +73,14 @@ button {
     font-weight: semi-bold;
     font-size: 18px;
 }
-.btn-container {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-}
+
 img {
     height: 400px;
-    width: 474px;
+    width: 80%;
     padding-top: 80px;
-    padding-right: 60px;
+    padding-left: 60px;
     padding-bottom: 80px;
-
+  
 }
 /* Main Section */
 
@@ -140,16 +134,29 @@ img {
     border-radius: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);   
 }
+.card-first:hover {
+    background-color: #548ff58f;
+    color: #FFFFFF;
+    
+}
 .card-middle {
     background-color:rgba(9, 161, 92, 0.2);
     border-radius: 16px ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card-middle:hover {
+    background-color: #09a15d95;
+    color: #FFFFFF;
 }
 .card-last {
     background-color:rgba(255, 194, 57, 0.2);
     border-radius: 16px ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.card-last:hover {
+    background-color: #ffc43976;
+    color: #FFFFFF;
+}   
 .btn-container {
 
     padding: 0 32px 32px 32px;  
@@ -164,6 +171,10 @@ img {
     background-color:#5490F5;
     
 }
+.card-btn1:hover {
+    background-color: #041e2f91;
+    color: #FFFFFF;
+}
 .card-btn2 {
     padding: 11px 20px;
     color: #FFFFFF;
@@ -172,7 +183,12 @@ img {
     border: none;
     border-radius:8px ;
     background-color:#09A15C;
-}.card-btn3 {
+}
+.card-btn2:hover {
+    background-color: #033720e4;
+    color: #FFFFFF;
+}   
+.card-btn3 {
     padding: 11px 20px;
     color: #FFFFFF;
     font-size: 16px;
@@ -181,6 +197,10 @@ img {
     border-radius:8px ;
     background-color : #FFC239
 }
+.card-btn3:hover {
+    background-color: #7a5b0b;
+    color: #FFFFFF;
+}   
 .card-hov:hover {
     background-color: #8c8c941c;
     color: #FFFFFF;
