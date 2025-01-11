@@ -357,6 +357,11 @@ img {
     justify-content: center;
     align-items: center;
 }
+.donate-main:hover {
+    background-color: #09a15d47;
+    border-radius: 24px;
+    padding: 40px;
+}
 
 /* Sub New */
 .sub-new {
