@@ -1,0 +1,83 @@
+@media screen and (max-width: 576px){
+    nav {
+        padding: 10px;
+        margin: 0 10px;
+
+    }
+    #hero-section{
+        flex-direction: column;
+        margin: 0 10px;
+        
+    }
+    img {
+        width: 300px;
+        height: 350px;
+        padding: 0;
+        padding-left: 10px;
+    }
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 80px;
+    }
+    .future-vision > h2 {
+        margin: 80px auto 10px;
+        padding: auto;
+        text-align: center;
+    }
+    .future-vision > p {
+        margin: 0 10px;
+        padding: 10px 0px 20px;
+    }
+    .challenge-container {
+        margin: 0 10px;
+    }
+    .challenge {
+        margin: 80px 10px;
+    }
+    .recent-news {
+        margin: 80px 10px;
+    }
+    .news-title{
+        text-align: center;
+    }
+    .card1 {
+        flex-direction: column;
+    }
+    .donate-title {
+        margin: 0% 10px;
+        text-align: center;
+    }
+    .donate-main {
+        margin: 0 10px;
+    }
+    .card-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .taka-card {
+        margin: 0 20px;
+    }
+    .donate-input {
+        padding:10px;
+    }
+    .sub-new {
+        margin: 80px 10px ;
+    
+    }
+    .sub-new-container{ 
+        margin: 0 10px ;
+        padding: 30px;
+    }
+    .search > input {
+        padding:20px;
+        width:200px;
+    }
+    hr {
+        width: 300px;
+    }
+
+}
+
+   
+
+
